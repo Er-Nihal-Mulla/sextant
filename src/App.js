@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Banner from "./Banner";
+import Exhibit from "./Exhibit";
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome to React</h2>
-      </div>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
+      <Banner bannerText="Sextant" />
+      <Exhibit name="Im an Exhibit"></Exhibit>
+      <Exhibit name="Im also an Exhibit"></Exhibit>
+      <Exhibit name="Dont forget about me... Im an Exhibit Tool!!!"></Exhibit>
     </div>
   );
 }
